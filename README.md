@@ -86,8 +86,9 @@ calibration checks, download them as described in
 
 ## Reproducing the results
 
-Run every command from the repository root. Times are wall-clock times on a 4-core
-laptop CPU (Intel Core i7-1165G7).
+Run every command from the repository root. Times are wall-clock times measured on
+a 4-core laptop CPU (Intel Core i7-1165G7); the full reruns in steps 3 and 4 are
+extrapolated from their measured one-world, one-seed runs.
 
 **1. Quick demo (about 3.5 minutes).** Two worlds, one seed and a small panel (80 products ×
 80 weeks) for all seven methods. Note that `--output` of `experiment.py` is relative
@@ -106,7 +107,7 @@ saved forecast matrices) against simulator-known demand. It also checks that
 python code/relative_price/verify_results.py
 ```
 
-**3. Rerun the main comparison (about 2 hours; report Tables 6 and 8, Figures 2 and 3).**
+**3. Rerun the main comparison (about 2 hours, estimated; report Tables 6 and 8, Figures 2 and 3).**
 
 ```bash
 python code/relative_price/run_experiment.py
