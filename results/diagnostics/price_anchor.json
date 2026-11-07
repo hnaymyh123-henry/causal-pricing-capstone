@@ -1,0 +1,174 @@
+{
+  "diagnostic_only": true,
+  "formal_results_modified": false,
+  "seed": 0,
+  "method": "numpy.linalg.lstsq OLS with an intercept and log_units target",
+  "generator": "AST-extracted current World/generate_panel/split_and_add_item_mean",
+  "added_feature": "training-only item mean(log_price), mapped unchanged to test",
+  "decision_rule": "argmax[(candidate_price - unit_cost) * multiplier ** fitted_price_slope]",
+  "reason_decision_rule_is_equivalent": "All non-price regressors are held fixed across candidates, so their positive demand factor cancels.",
+  "evaluation": "Same held-out demand, seven prices, and simulator regret as experiment.py",
+  "limitations": [
+    "One seed and two worlds; no replication uncertainty.",
+    "An OLS diagnostic is not a measured result for retrained HGB/Transformer models.",
+    "The original item_log_mean follows the existing full-training aggregation procedure.",
+    "Adding a stable price control cannot remove the hidden time-varying demand confounder."
+  ],
+  "source_path": "code/experiment.py",
+  "source_sha256": "018f259ad573c165f19de549dde6b2b987df4f6a0f1928b53f95dddad7b4d550",
+  "script_path": "code/diagnose_price_anchor.py",
+  "script_sha256": "abd77954e0cc6bf277ca166387c5c3cc172d902513c16828df2b9edad2a6c817",
+  "analytic_clean_pooled_slope_approximation": -0.16968911917098448,
+  "worlds": [
+    {
+      "world": "higher_elasticity",
+      "true_beta": -2.62,
+      "train_rows": 52000,
+      "test_rows": 13000,
+      "oracle_option_counts": [
+        3173,
+        1745,
+        2073,
+        1719,
+        1457,
+        962,
+        1871
+      ],
+      "pipelines": [
+        {
+          "name": "original_four_features",
+          "features": [
+            "log_price",
+            "season",
+            "cost_shock",
+            "item_log_mean"
+          ],
+          "price_slope": -0.1632735575948724,
+          "coefficients": {
+            "intercept": 0.16402023252801756,
+            "log_price": -0.1632735575948724,
+            "season": -0.11871823582925485,
+            "cost_shock": -0.1835712637226803,
+            "item_log_mean": 1.0000722035043565
+          },
+          "regret_pct": 7.469878906383231,
+          "upper_15_share_pct": 100.0,
+          "option_counts": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            13000
+          ]
+        },
+        {
+          "name": "add_train_only_item_price_mean",
+          "features": [
+            "log_price",
+            "season",
+            "cost_shock",
+            "item_log_mean",
+            "item_log_price_mean"
+          ],
+          "price_slope": -2.616737638654987,
+          "coefficients": {
+            "intercept": -0.012081482251620035,
+            "log_price": -2.616737638654987,
+            "season": 0.25107176418368304,
+            "cost_shock": -0.002640210156158044,
+            "item_log_mean": 1.000007257180224,
+            "item_log_price_mean": 2.6167439270345954
+          },
+          "regret_pct": 6.623174918449702e-05,
+          "upper_15_share_pct": 14.484615384615385,
+          "option_counts": [
+            3149,
+            1742,
+            2072,
+            1721,
+            1467,
+            966,
+            1883
+          ]
+        }
+      ]
+    },
+    {
+      "world": "hidden_confounding",
+      "true_beta": -2.62,
+      "train_rows": 52000,
+      "test_rows": 13000,
+      "oracle_option_counts": [
+        4898,
+        923,
+        879,
+        865,
+        739,
+        683,
+        4013
+      ],
+      "pipelines": [
+        {
+          "name": "original_four_features",
+          "features": [
+            "log_price",
+            "season",
+            "cost_shock",
+            "item_log_mean"
+          ],
+          "price_slope": -0.535714641408458,
+          "coefficients": {
+            "intercept": 0.524690099129571,
+            "log_price": -0.535714641408458,
+            "season": -0.06050222385352129,
+            "cost_shock": -0.15029642489354492,
+            "item_log_mean": 1.0007761312617212
+          },
+          "regret_pct": 13.198208681423676,
+          "upper_15_share_pct": 100.0,
+          "option_counts": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            13000
+          ]
+        },
+        {
+          "name": "add_train_only_item_price_mean",
+          "features": [
+            "log_price",
+            "season",
+            "cost_shock",
+            "item_log_mean",
+            "item_log_price_mean"
+          ],
+          "price_slope": -1.7717684103225164,
+          "coefficients": {
+            "intercept": -0.0070257382645173986,
+            "log_price": -1.7717684103225164,
+            "season": 0.12456324725934885,
+            "cost_shock": -0.06271293984228749,
+            "item_log_mean": 1.0001993901184607,
+            "item_log_price_mean": 1.7718757831414296
+          },
+          "regret_pct": 6.056618412739724,
+          "upper_15_share_pct": 72.86153846153847,
+          "option_counts": [
+            1362,
+            324,
+            356,
+            449,
+            488,
+            549,
+            9472
+          ]
+        }
+      ]
+    }
+  ]
+}

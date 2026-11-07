@@ -1,0 +1,177 @@
+[
+  {
+    "world": "baseline",
+    "seed": 0,
+    "true_beta": -0.67,
+    "same_features_price_slope": -0.041596747577632875,
+    "relative_price_diagnostic_slope": -0.6667375948946277
+  },
+  {
+    "world": "baseline",
+    "seed": 1,
+    "true_beta": -0.67,
+    "same_features_price_slope": -0.04552357461654555,
+    "relative_price_diagnostic_slope": -0.6789468080213656
+  },
+  {
+    "world": "baseline",
+    "seed": 2,
+    "true_beta": -0.67,
+    "same_features_price_slope": -0.040548163064525466,
+    "relative_price_diagnostic_slope": -0.669664652123976
+  },
+  {
+    "world": "baseline",
+    "seed": 3,
+    "true_beta": -0.67,
+    "same_features_price_slope": -0.04508140533541649,
+    "relative_price_diagnostic_slope": -0.66353010004773
+  },
+  {
+    "world": "baseline",
+    "seed": 4,
+    "true_beta": -0.67,
+    "same_features_price_slope": -0.04199321133849998,
+    "relative_price_diagnostic_slope": -0.671253902169741
+  },
+  {
+    "world": "higher_elasticity",
+    "seed": 0,
+    "true_beta": -2.62,
+    "same_features_price_slope": -0.1632735575948724,
+    "relative_price_diagnostic_slope": -2.6167376552226935
+  },
+  {
+    "world": "higher_elasticity",
+    "seed": 1,
+    "true_beta": -2.62,
+    "same_features_price_slope": -0.17624224389979914,
+    "relative_price_diagnostic_slope": -2.628946788762687
+  },
+  {
+    "world": "higher_elasticity",
+    "seed": 2,
+    "true_beta": -2.62,
+    "same_features_price_slope": -0.15861107827360466,
+    "relative_price_diagnostic_slope": -2.6196646383357782
+  },
+  {
+    "world": "higher_elasticity",
+    "seed": 3,
+    "true_beta": -2.62,
+    "same_features_price_slope": -0.17759600377180362,
+    "relative_price_diagnostic_slope": -2.61353006719619
+  },
+  {
+    "world": "higher_elasticity",
+    "seed": 4,
+    "true_beta": -2.62,
+    "same_features_price_slope": -0.16405393999054274,
+    "relative_price_diagnostic_slope": -2.6212538861601504
+  },
+  {
+    "world": "weak_instrument",
+    "seed": 0,
+    "true_beta": -2.62,
+    "same_features_price_slope": -0.16333979588141256,
+    "relative_price_diagnostic_slope": -2.616659193393177
+  },
+  {
+    "world": "weak_instrument",
+    "seed": 1,
+    "true_beta": -2.62,
+    "same_features_price_slope": -0.17462440657514244,
+    "relative_price_diagnostic_slope": -2.628966035315797
+  },
+  {
+    "world": "weak_instrument",
+    "seed": 2,
+    "true_beta": -2.62,
+    "same_features_price_slope": -0.16206778614113182,
+    "relative_price_diagnostic_slope": -2.6196760288875534
+  },
+  {
+    "world": "weak_instrument",
+    "seed": 3,
+    "true_beta": -2.62,
+    "same_features_price_slope": -0.17731023380258204,
+    "relative_price_diagnostic_slope": -2.613482388962283
+  },
+  {
+    "world": "weak_instrument",
+    "seed": 4,
+    "true_beta": -2.62,
+    "same_features_price_slope": -0.16411676891238203,
+    "relative_price_diagnostic_slope": -2.621265460991912
+  },
+  {
+    "world": "hidden_confounding",
+    "seed": 0,
+    "true_beta": -2.62,
+    "same_features_price_slope": -0.535714641408458,
+    "relative_price_diagnostic_slope": -1.771768440471952
+  },
+  {
+    "world": "hidden_confounding",
+    "seed": 1,
+    "true_beta": -2.62,
+    "same_features_price_slope": -0.5694971073598751,
+    "relative_price_diagnostic_slope": -1.7755883351592998
+  },
+  {
+    "world": "hidden_confounding",
+    "seed": 2,
+    "true_beta": -2.62,
+    "same_features_price_slope": -0.5277760097877326,
+    "relative_price_diagnostic_slope": -1.7683995778601247
+  },
+  {
+    "world": "hidden_confounding",
+    "seed": 3,
+    "true_beta": -2.62,
+    "same_features_price_slope": -0.5710945598946122,
+    "relative_price_diagnostic_slope": -1.780221863324365
+  },
+  {
+    "world": "hidden_confounding",
+    "seed": 4,
+    "true_beta": -2.62,
+    "same_features_price_slope": -0.531675440285579,
+    "relative_price_diagnostic_slope": -1.7693078123683332
+  },
+  {
+    "world": "exclusion_violated",
+    "seed": 0,
+    "true_beta": -2.62,
+    "same_features_price_slope": -0.16329884609974887,
+    "relative_price_diagnostic_slope": -2.6145000571365404
+  },
+  {
+    "world": "exclusion_violated",
+    "seed": 1,
+    "true_beta": -2.62,
+    "same_features_price_slope": -0.17561459729390838,
+    "relative_price_diagnostic_slope": -2.6265101533662234
+  },
+  {
+    "world": "exclusion_violated",
+    "seed": 2,
+    "true_beta": -2.62,
+    "same_features_price_slope": -0.15996137878646466,
+    "relative_price_diagnostic_slope": -2.617018515437506
+  },
+  {
+    "world": "exclusion_violated",
+    "seed": 3,
+    "true_beta": -2.62,
+    "same_features_price_slope": -0.17748169409399284,
+    "relative_price_diagnostic_slope": -2.611183125072687
+  },
+  {
+    "world": "exclusion_violated",
+    "seed": 4,
+    "true_beta": -2.62,
+    "same_features_price_slope": -0.16406879625742932,
+    "relative_price_diagnostic_slope": -2.6190125185861373
+  }
+]

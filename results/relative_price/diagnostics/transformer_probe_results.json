@@ -1,0 +1,926 @@
+{
+  "results": [
+    {
+      "variant": "original_features",
+      "epoch": 12,
+      "regret_pct": 7.469878906383231,
+      "upper_share": 1.0,
+      "implied_log_price_slope_quantiles": [
+        -0.8433634599618179,
+        -0.2515359627770705,
+        -0.17193390138954495,
+        -0.09333057182357593,
+        0.11190292173502625
+      ],
+      "median_q_up15_vs_current": 0.9763246774673462,
+      "test_log_mse": 0.3702732590341237,
+      "monotone_profit_share": 1.0
+    },
+    {
+      "variant": "original_features",
+      "epoch": 36,
+      "regret_pct": 7.469878906383231,
+      "upper_share": 1.0,
+      "implied_log_price_slope_quantiles": [
+        -0.7784839478768444,
+        -0.24286208042791935,
+        -0.17233674622892106,
+        -0.08265697794527702,
+        0.1394549059329437
+      ],
+      "median_q_up15_vs_current": 0.9763883948326111,
+      "test_log_mse": 0.36784539401018124,
+      "monotone_profit_share": 1.0
+    },
+    {
+      "variant": "relative_price_diagnostic",
+      "epoch": 12,
+      "regret_pct": 1.0572513642596704,
+      "upper_share": 0.18484615384615385,
+      "implied_log_price_slope_quantiles": [
+        -3.472755980076918,
+        -2.705708014373509,
+        -2.5597451234407416,
+        -2.318503374477868,
+        -0.10152557557414224
+      ],
+      "median_q_up15_vs_current": 0.7022579908370972,
+      "test_log_mse": 0.2206628013481282,
+      "monotone_profit_share": 0.179
+    }
+  ],
+  "losses": [
+    {
+      "variant": "original_features",
+      "epoch": 1,
+      "online_standardized_train_mse": 0.48942807580874514
+    },
+    {
+      "variant": "original_features",
+      "epoch": 2,
+      "online_standardized_train_mse": 0.23888676779086773
+    },
+    {
+      "variant": "original_features",
+      "epoch": 3,
+      "online_standardized_train_mse": 0.20256167798775893
+    },
+    {
+      "variant": "original_features",
+      "epoch": 4,
+      "online_standardized_train_mse": 0.1970798003398455
+    },
+    {
+      "variant": "original_features",
+      "epoch": 5,
+      "online_standardized_train_mse": 0.195300358744768
+    },
+    {
+      "variant": "original_features",
+      "epoch": 6,
+      "online_standardized_train_mse": 0.19464153881256396
+    },
+    {
+      "variant": "original_features",
+      "epoch": 7,
+      "online_standardized_train_mse": 0.1951213070979485
+    },
+    {
+      "variant": "original_features",
+      "epoch": 8,
+      "online_standardized_train_mse": 0.1942845845589271
+    },
+    {
+      "variant": "original_features",
+      "epoch": 9,
+      "online_standardized_train_mse": 0.19350789574476387
+    },
+    {
+      "variant": "original_features",
+      "epoch": 10,
+      "online_standardized_train_mse": 0.1935352997504748
+    },
+    {
+      "variant": "original_features",
+      "epoch": 11,
+      "online_standardized_train_mse": 0.19316292715989627
+    },
+    {
+      "variant": "original_features",
+      "epoch": 12,
+      "online_standardized_train_mse": 0.19426082645012782
+    },
+    {
+      "variant": "original_features",
+      "epoch": 13,
+      "online_standardized_train_mse": 0.19504488822130056
+    },
+    {
+      "variant": "original_features",
+      "epoch": 14,
+      "online_standardized_train_mse": 0.19354150692316202
+    },
+    {
+      "variant": "original_features",
+      "epoch": 15,
+      "online_standardized_train_mse": 0.19336673069000243
+    },
+    {
+      "variant": "original_features",
+      "epoch": 16,
+      "online_standardized_train_mse": 0.19285835742033444
+    },
+    {
+      "variant": "original_features",
+      "epoch": 17,
+      "online_standardized_train_mse": 0.1925546376521771
+    },
+    {
+      "variant": "original_features",
+      "epoch": 18,
+      "online_standardized_train_mse": 0.1933288294810515
+    },
+    {
+      "variant": "original_features",
+      "epoch": 19,
+      "online_standardized_train_mse": 0.19333105265177214
+    },
+    {
+      "variant": "original_features",
+      "epoch": 20,
+      "online_standardized_train_mse": 0.19268257208053882
+    },
+    {
+      "variant": "original_features",
+      "epoch": 21,
+      "online_standardized_train_mse": 0.1926239165709569
+    },
+    {
+      "variant": "original_features",
+      "epoch": 22,
+      "online_standardized_train_mse": 0.19316571596952586
+    },
+    {
+      "variant": "original_features",
+      "epoch": 23,
+      "online_standardized_train_mse": 0.19324988677868477
+    },
+    {
+      "variant": "original_features",
+      "epoch": 24,
+      "online_standardized_train_mse": 0.19316667556762696
+    },
+    {
+      "variant": "original_features",
+      "epoch": 25,
+      "online_standardized_train_mse": 0.19319811111230117
+    },
+    {
+      "variant": "original_features",
+      "epoch": 26,
+      "online_standardized_train_mse": 0.19239554368532621
+    },
+    {
+      "variant": "original_features",
+      "epoch": 27,
+      "online_standardized_train_mse": 0.19508878744565525
+    },
+    {
+      "variant": "original_features",
+      "epoch": 28,
+      "online_standardized_train_mse": 0.1930550523354457
+    },
+    {
+      "variant": "original_features",
+      "epoch": 29,
+      "online_standardized_train_mse": 0.19233783892484813
+    },
+    {
+      "variant": "original_features",
+      "epoch": 30,
+      "online_standardized_train_mse": 0.1926981536425077
+    },
+    {
+      "variant": "original_features",
+      "epoch": 31,
+      "online_standardized_train_mse": 0.1926092412196673
+    },
+    {
+      "variant": "original_features",
+      "epoch": 32,
+      "online_standardized_train_mse": 0.19269643969719227
+    },
+    {
+      "variant": "original_features",
+      "epoch": 33,
+      "online_standardized_train_mse": 0.19270513376822837
+    },
+    {
+      "variant": "original_features",
+      "epoch": 34,
+      "online_standardized_train_mse": 0.19331659499498513
+    },
+    {
+      "variant": "original_features",
+      "epoch": 35,
+      "online_standardized_train_mse": 0.19278421950340272
+    },
+    {
+      "variant": "original_features",
+      "epoch": 36,
+      "online_standardized_train_mse": 0.1921215799129926
+    },
+    {
+      "variant": "relative_price_diagnostic",
+      "epoch": 1,
+      "online_standardized_train_mse": 0.4348243912091622
+    },
+    {
+      "variant": "relative_price_diagnostic",
+      "epoch": 2,
+      "online_standardized_train_mse": 0.16920996718223277
+    },
+    {
+      "variant": "relative_price_diagnostic",
+      "epoch": 3,
+      "online_standardized_train_mse": 0.1295017684377157
+    },
+    {
+      "variant": "relative_price_diagnostic",
+      "epoch": 4,
+      "online_standardized_train_mse": 0.12172648177238611
+    },
+    {
+      "variant": "relative_price_diagnostic",
+      "epoch": 5,
+      "online_standardized_train_mse": 0.11894211416061108
+    },
+    {
+      "variant": "relative_price_diagnostic",
+      "epoch": 6,
+      "online_standardized_train_mse": 0.11781739106545082
+    },
+    {
+      "variant": "relative_price_diagnostic",
+      "epoch": 7,
+      "online_standardized_train_mse": 0.11771216197655751
+    },
+    {
+      "variant": "relative_price_diagnostic",
+      "epoch": 8,
+      "online_standardized_train_mse": 0.11751516461830873
+    },
+    {
+      "variant": "relative_price_diagnostic",
+      "epoch": 9,
+      "online_standardized_train_mse": 0.1170946276967342
+    },
+    {
+      "variant": "relative_price_diagnostic",
+      "epoch": 10,
+      "online_standardized_train_mse": 0.1166432507129816
+    },
+    {
+      "variant": "relative_price_diagnostic",
+      "epoch": 11,
+      "online_standardized_train_mse": 0.11716511622759013
+    },
+    {
+      "variant": "relative_price_diagnostic",
+      "epoch": 12,
+      "online_standardized_train_mse": 0.11645494632079051
+    }
+  ],
+  "curves": [
+    {
+      "variant": "original_features",
+      "epoch": 12,
+      "row": 0,
+      "multiplier": 0.85,
+      "predicted_demand": 1.0983238220214844,
+      "predicted_profit": 1.424492222936848,
+      "true_demand": 0.957263723736002,
+      "true_profit": 1.24154161315717
+    },
+    {
+      "variant": "original_features",
+      "epoch": 12,
+      "row": 0,
+      "multiplier": 0.9,
+      "predicted_demand": 1.0934170484542847,
+      "predicted_profit": 1.6351129887088014,
+      "true_demand": 0.8241263723236294,
+      "true_profit": 1.2324114916890947
+    },
+    {
+      "variant": "original_features",
+      "epoch": 12,
+      "row": 0,
+      "multiplier": 0.95,
+      "predicted_demand": 1.0842846632003784,
+      "predicted_profit": 1.83662868772134,
+      "true_demand": 0.7152754854999086,
+      "true_profit": 1.2115780300861523
+    },
+    {
+      "variant": "original_features",
+      "epoch": 12,
+      "row": 0,
+      "multiplier": 1.0,
+      "predicted_demand": 1.0741592645645142,
+      "predicted_profit": 2.0326407207153516,
+      "true_demand": 0.6253298881933914,
+      "true_profit": 1.183317070897846
+    },
+    {
+      "variant": "original_features",
+      "epoch": 12,
+      "row": 0,
+      "multiplier": 1.05,
+      "predicted_demand": 1.0635234117507935,
+      "predicted_profit": 2.2235668208721924,
+      "true_demand": 0.5502920302871342,
+      "true_profit": 1.1505257776343016
+    },
+    {
+      "variant": "original_features",
+      "epoch": 12,
+      "row": 0,
+      "multiplier": 1.1,
+      "predicted_demand": 1.0528364181518555,
+      "predicted_profit": 2.410154555618493,
+      "true_demand": 0.487147358016649,
+      "true_profit": 1.1151783923302636
+    },
+    {
+      "variant": "original_features",
+      "epoch": 12,
+      "row": 0,
+      "multiplier": 1.15,
+      "predicted_demand": 1.0423842668533325,
+      "predicted_profit": 2.5930849040240136,
+      "true_demand": 0.4335915849675055,
+      "true_profit": 1.0786231423898525
+    },
+    {
+      "variant": "original_features",
+      "epoch": 12,
+      "row": 100,
+      "multiplier": 0.85,
+      "predicted_demand": 32.993900299072266,
+      "predicted_profit": 23.289160208202333,
+      "true_demand": 25.66307660369099,
+      "true_profit": 18.114605943557816
+    },
+    {
+      "variant": "original_features",
+      "epoch": 12,
+      "row": 100,
+      "multiplier": 0.9,
+      "predicted_demand": 32.710941314697266,
+      "predicted_profit": 27.509341046526707,
+      "true_demand": 22.093826079108776,
+      "true_profit": 18.58052908920008
+    },
+    {
+      "variant": "original_features",
+      "epoch": 12,
+      "row": 100,
+      "multiplier": 0.95,
+      "predicted_demand": 32.47031021118164,
+      "predicted_profit": 31.6943712767165,
+      "true_demand": 19.175666142958065,
+      "true_profit": 18.717427651922574
+    },
+    {
+      "variant": "original_features",
+      "epoch": 12,
+      "row": 100,
+      "multiplier": 1.0,
+      "predicted_demand": 32.25944900512695,
+      "predicted_profit": 35.84745423712263,
+      "true_demand": 16.76433403394097,
+      "true_profit": 18.62892007244224
+    },
+    {
+      "variant": "original_features",
+      "epoch": 12,
+      "row": 100,
+      "multiplier": 1.05,
+      "predicted_demand": 32.11191177368164,
+      "predicted_profit": 40.02247738794047,
+      "true_demand": 14.75266029359537,
+      "true_profit": 18.38688450484286
+    },
+    {
+      "variant": "original_features",
+      "epoch": 12,
+      "row": 100,
+      "multiplier": 1.1,
+      "predicted_demand": 31.963674545288086,
+      "predicted_profit": 44.15666297912246,
+      "true_demand": 13.0598284005534,
+      "true_profit": 18.04168167309222
+    },
+    {
+      "variant": "original_features",
+      "epoch": 12,
+      "row": 100,
+      "multiplier": 1.15,
+      "predicted_demand": 31.81195640563965,
+      "predicted_profit": 48.245509768713816,
+      "true_demand": 11.624063237567762,
+      "true_profit": 17.628870394805457
+    },
+    {
+      "variant": "original_features",
+      "epoch": 12,
+      "row": 1000,
+      "multiplier": 0.85,
+      "predicted_demand": 1.7179927825927734,
+      "predicted_profit": 1.079507259028379,
+      "true_demand": 3.283774885935977,
+      "true_profit": 2.0633723623874123
+    },
+    {
+      "variant": "original_features",
+      "epoch": 12,
+      "row": 1000,
+      "multiplier": 0.9,
+      "predicted_demand": 1.7079700231552124,
+      "predicted_profit": 1.311063111718756,
+      "true_demand": 2.8270636577681447,
+      "true_profit": 2.1700959770554977
+    },
+    {
+      "variant": "original_features",
+      "epoch": 12,
+      "row": 1000,
+      "multiplier": 0.95,
+      "predicted_demand": 1.6949455738067627,
+      "predicted_profit": 1.5371052443349318,
+      "true_demand": 2.4536641445508547,
+      "true_profit": 2.2251688093765827
+    },
+    {
+      "variant": "original_features",
+      "epoch": 12,
+      "row": 1000,
+      "multiplier": 1.0,
+      "predicted_demand": 1.6840229034423828,
+      "predicted_profit": 1.7617185286659167,
+      "true_demand": 2.145116890317801,
+      "true_profit": 2.2440859706255067
+    },
+    {
+      "variant": "original_features",
+      "epoch": 12,
+      "row": 1000,
+      "multiplier": 1.05,
+      "predicted_demand": 1.6746838092803955,
+      "predicted_profit": 1.9851667760074774,
+      "true_demand": 1.8877087934922756,
+      "true_profit": 2.237686158337122
+    },
+    {
+      "variant": "original_features",
+      "epoch": 12,
+      "row": 1000,
+      "multiplier": 1.1,
+      "predicted_demand": 1.6661816835403442,
+      "predicted_profit": 2.207122577071069,
+      "true_demand": 1.6710987999857612,
+      "true_profit": 2.213636079666841
+    },
+    {
+      "variant": "original_features",
+      "epoch": 12,
+      "row": 1000,
+      "multiplier": 1.15,
+      "predicted_demand": 1.6579222679138184,
+      "predicted_profit": 2.4270656564945647,
+      "true_demand": 1.4873823400646653,
+      "true_profit": 2.1774088360547443
+    },
+    {
+      "variant": "original_features",
+      "epoch": 36,
+      "row": 0,
+      "multiplier": 0.85,
+      "predicted_demand": 1.0184097290039062,
+      "predicted_profit": 1.320846101707252,
+      "true_demand": 0.957263723736002,
+      "true_profit": 1.24154161315717
+    },
+    {
+      "variant": "original_features",
+      "epoch": 36,
+      "row": 0,
+      "multiplier": 0.9,
+      "predicted_demand": 1.0190019607543945,
+      "predicted_profit": 1.5238315004367788,
+      "true_demand": 0.8241263723236294,
+      "true_profit": 1.2324114916890947
+    },
+    {
+      "variant": "original_features",
+      "epoch": 36,
+      "row": 0,
+      "multiplier": 0.95,
+      "predicted_demand": 1.0167474746704102,
+      "predicted_profit": 1.7222300042832979,
+      "true_demand": 0.7152754854999086,
+      "true_profit": 1.2115780300861523
+    },
+    {
+      "variant": "original_features",
+      "epoch": 36,
+      "row": 0,
+      "multiplier": 1.0,
+      "predicted_demand": 1.012360692024231,
+      "predicted_profit": 1.9156987558025529,
+      "true_demand": 0.6253298881933914,
+      "true_profit": 1.183317070897846
+    },
+    {
+      "variant": "original_features",
+      "epoch": 36,
+      "row": 0,
+      "multiplier": 1.05,
+      "predicted_demand": 1.0063670873641968,
+      "predicted_profit": 2.1040669536338914,
+      "true_demand": 0.5502920302871342,
+      "true_profit": 1.1505257776343016
+    },
+    {
+      "variant": "original_features",
+      "epoch": 36,
+      "row": 0,
+      "multiplier": 1.1,
+      "predicted_demand": 0.9988440871238708,
+      "predicted_profit": 2.2865552382392664,
+      "true_demand": 0.487147358016649,
+      "true_profit": 1.1151783923302636
+    },
+    {
+      "variant": "original_features",
+      "epoch": 36,
+      "row": 0,
+      "multiplier": 1.15,
+      "predicted_demand": 0.989168643951416,
+      "predicted_profit": 2.460703178020267,
+      "true_demand": 0.4335915849675055,
+      "true_profit": 1.0786231423898525
+    },
+    {
+      "variant": "original_features",
+      "epoch": 36,
+      "row": 100,
+      "multiplier": 0.85,
+      "predicted_demand": 30.686838150024414,
+      "predicted_profit": 21.660691324183617,
+      "true_demand": 25.66307660369099,
+      "true_profit": 18.114605943557816
+    },
+    {
+      "variant": "original_features",
+      "epoch": 36,
+      "row": 100,
+      "multiplier": 0.9,
+      "predicted_demand": 30.477737426757812,
+      "predicted_profit": 25.631254849351052,
+      "true_demand": 22.093826079108776,
+      "true_profit": 18.58052908920008
+    },
+    {
+      "variant": "original_features",
+      "epoch": 36,
+      "row": 100,
+      "multiplier": 0.95,
+      "predicted_demand": 30.310876846313477,
+      "predicted_profit": 29.586541620383503,
+      "true_demand": 19.175666142958065,
+      "true_profit": 18.717427651922574
+    },
+    {
+      "variant": "original_features",
+      "epoch": 36,
+      "row": 100,
+      "multiplier": 1.0,
+      "predicted_demand": 30.17331886291504,
+      "predicted_profit": 33.52929763148009,
+      "true_demand": 16.76433403394097,
+      "true_profit": 18.62892007244224
+    },
+    {
+      "variant": "original_features",
+      "epoch": 36,
+      "row": 100,
+      "multiplier": 1.05,
+      "predicted_demand": 30.048980712890625,
+      "predicted_profit": 37.451356356116506,
+      "true_demand": 14.75266029359537,
+      "true_profit": 18.38688450484286
+    },
+    {
+      "variant": "original_features",
+      "epoch": 36,
+      "row": 100,
+      "multiplier": 1.1,
+      "predicted_demand": 29.928104400634766,
+      "predicted_profit": 41.344596277577644,
+      "true_demand": 13.0598284005534,
+      "true_profit": 18.04168167309222
+    },
+    {
+      "variant": "original_features",
+      "epoch": 36,
+      "row": 100,
+      "multiplier": 1.15,
+      "predicted_demand": 29.806324005126953,
+      "predicted_profit": 45.20379940241173,
+      "true_demand": 11.624063237567762,
+      "true_profit": 17.628870394805457
+    },
+    {
+      "variant": "original_features",
+      "epoch": 36,
+      "row": 1000,
+      "multiplier": 0.85,
+      "predicted_demand": 1.560766339302063,
+      "predicted_profit": 0.9807134290639797,
+      "true_demand": 3.283774885935977,
+      "true_profit": 2.0633723623874123
+    },
+    {
+      "variant": "original_features",
+      "epoch": 36,
+      "row": 1000,
+      "multiplier": 0.9,
+      "predicted_demand": 1.5632728338241577,
+      "predicted_profit": 1.1999914039431852,
+      "true_demand": 2.8270636577681447,
+      "true_profit": 2.1700959770554977
+    },
+    {
+      "variant": "original_features",
+      "epoch": 36,
+      "row": 1000,
+      "multiplier": 0.95,
+      "predicted_demand": 1.5712000131607056,
+      "predicted_profit": 1.4248833811838817,
+      "true_demand": 2.4536641445508547,
+      "true_profit": 2.2251688093765827
+    },
+    {
+      "variant": "original_features",
+      "epoch": 36,
+      "row": 1000,
+      "multiplier": 1.0,
+      "predicted_demand": 1.581324815750122,
+      "predicted_profit": 1.6542822678073643,
+      "true_demand": 2.145116890317801,
+      "true_profit": 2.2440859706255067
+    },
+    {
+      "variant": "original_features",
+      "epoch": 36,
+      "row": 1000,
+      "multiplier": 1.05,
+      "predicted_demand": 1.5907955169677734,
+      "predicted_profit": 1.8857257651896926,
+      "true_demand": 1.8877087934922756,
+      "true_profit": 2.237686158337122
+    },
+    {
+      "variant": "original_features",
+      "epoch": 36,
+      "row": 1000,
+      "multiplier": 1.1,
+      "predicted_demand": 1.6002310514450073,
+      "predicted_profit": 2.1197604781429176,
+      "true_demand": 1.6710987999857612,
+      "true_profit": 2.213636079666841
+    },
+    {
+      "variant": "original_features",
+      "epoch": 36,
+      "row": 1000,
+      "multiplier": 1.15,
+      "predicted_demand": 1.608216643333435,
+      "predicted_profit": 2.3543005958590855,
+      "true_demand": 1.4873823400646653,
+      "true_profit": 2.1774088360547443
+    },
+    {
+      "variant": "relative_price_diagnostic",
+      "epoch": 12,
+      "row": 0,
+      "multiplier": 0.85,
+      "predicted_demand": 0.8578718304634094,
+      "predicted_profit": 1.1126333839527889,
+      "true_demand": 0.957263723736002,
+      "true_profit": 1.24154161315717
+    },
+    {
+      "variant": "relative_price_diagnostic",
+      "epoch": 12,
+      "row": 0,
+      "multiplier": 0.9,
+      "predicted_demand": 0.7310258150100708,
+      "predicted_profit": 1.0931874593451427,
+      "true_demand": 0.8241263723236294,
+      "true_profit": 1.2324114916890947
+    },
+    {
+      "variant": "relative_price_diagnostic",
+      "epoch": 12,
+      "row": 0,
+      "multiplier": 0.95,
+      "predicted_demand": 0.6254870295524597,
+      "predicted_profit": 1.05948876827501,
+      "true_demand": 0.7152754854999086,
+      "true_profit": 1.2115780300861523
+    },
+    {
+      "variant": "relative_price_diagnostic",
+      "epoch": 12,
+      "row": 0,
+      "multiplier": 1.0,
+      "predicted_demand": 0.5393280982971191,
+      "predicted_profit": 1.0205751517389205,
+      "true_demand": 0.6253298881933914,
+      "true_profit": 1.183317070897846
+    },
+    {
+      "variant": "relative_price_diagnostic",
+      "epoch": 12,
+      "row": 0,
+      "multiplier": 1.05,
+      "predicted_demand": 0.4691857397556305,
+      "predicted_profit": 0.9809524005019786,
+      "true_demand": 0.5502920302871342,
+      "true_profit": 1.1505257776343016
+    },
+    {
+      "variant": "relative_price_diagnostic",
+      "epoch": 12,
+      "row": 0,
+      "multiplier": 1.1,
+      "predicted_demand": 0.4020842909812927,
+      "predicted_profit": 0.9204519039646467,
+      "true_demand": 0.487147358016649,
+      "true_profit": 1.1151783923302636
+    },
+    {
+      "variant": "relative_price_diagnostic",
+      "epoch": 12,
+      "row": 0,
+      "multiplier": 1.15,
+      "predicted_demand": 0.344839483499527,
+      "predicted_profit": 0.8578391744854285,
+      "true_demand": 0.4335915849675055,
+      "true_profit": 1.0786231423898525
+    },
+    {
+      "variant": "relative_price_diagnostic",
+      "epoch": 12,
+      "row": 100,
+      "multiplier": 0.85,
+      "predicted_demand": 39.54884719848633,
+      "predicted_profit": 27.916052061330888,
+      "true_demand": 25.66307660369099,
+      "true_profit": 18.114605943557816
+    },
+    {
+      "variant": "relative_price_diagnostic",
+      "epoch": 12,
+      "row": 100,
+      "multiplier": 0.9,
+      "predicted_demand": 34.6126594543457,
+      "predicted_profit": 29.10865341038246,
+      "true_demand": 22.093826079108776,
+      "true_profit": 18.58052908920008
+    },
+    {
+      "variant": "relative_price_diagnostic",
+      "epoch": 12,
+      "row": 100,
+      "multiplier": 0.95,
+      "predicted_demand": 30.397140502929688,
+      "predicted_profit": 29.670743845206715,
+      "true_demand": 19.175666142958065,
+      "true_profit": 18.717427651922574
+    },
+    {
+      "variant": "relative_price_diagnostic",
+      "epoch": 12,
+      "row": 100,
+      "multiplier": 1.0,
+      "predicted_demand": 26.609750747680664,
+      "predicted_profit": 29.569377395042352,
+      "true_demand": 16.76433403394097,
+      "true_profit": 18.62892007244224
+    },
+    {
+      "variant": "relative_price_diagnostic",
+      "epoch": 12,
+      "row": 100,
+      "multiplier": 1.05,
+      "predicted_demand": 23.27764129638672,
+      "predicted_profit": 29.01194045982567,
+      "true_demand": 14.75266029359537,
+      "true_profit": 18.38688450484286
+    },
+    {
+      "variant": "relative_price_diagnostic",
+      "epoch": 12,
+      "row": 100,
+      "multiplier": 1.1,
+      "predicted_demand": 20.451671600341797,
+      "predicted_profit": 28.253246319863738,
+      "true_demand": 13.0598284005534,
+      "true_profit": 18.04168167309222
+    },
+    {
+      "variant": "relative_price_diagnostic",
+      "epoch": 12,
+      "row": 100,
+      "multiplier": 1.15,
+      "predicted_demand": 18.063684463500977,
+      "predicted_profit": 27.395098060938547,
+      "true_demand": 11.624063237567762,
+      "true_profit": 17.628870394805457
+    },
+    {
+      "variant": "relative_price_diagnostic",
+      "epoch": 12,
+      "row": 1000,
+      "multiplier": 0.85,
+      "predicted_demand": 2.2433788776397705,
+      "predicted_profit": 1.4096355978330737,
+      "true_demand": 3.283774885935977,
+      "true_profit": 2.0633723623874123
+    },
+    {
+      "variant": "relative_price_diagnostic",
+      "epoch": 12,
+      "row": 1000,
+      "multiplier": 0.9,
+      "predicted_demand": 1.8702781200408936,
+      "predicted_profit": 1.4356532132282556,
+      "true_demand": 2.8270636577681447,
+      "true_profit": 2.1700959770554977
+    },
+    {
+      "variant": "relative_price_diagnostic",
+      "epoch": 12,
+      "row": 1000,
+      "multiplier": 0.95,
+      "predicted_demand": 1.5899271965026855,
+      "predicted_profit": 1.4418666118972598,
+      "true_demand": 2.4536641445508547,
+      "true_profit": 2.2251688093765827
+    },
+    {
+      "variant": "relative_price_diagnostic",
+      "epoch": 12,
+      "row": 1000,
+      "multiplier": 1.0,
+      "predicted_demand": 1.3824337720870972,
+      "predicted_profit": 1.4462150045352284,
+      "true_demand": 2.145116890317801,
+      "true_profit": 2.2440859706255067
+    },
+    {
+      "variant": "relative_price_diagnostic",
+      "epoch": 12,
+      "row": 1000,
+      "multiplier": 1.05,
+      "predicted_demand": 1.2309435606002808,
+      "predicted_profit": 1.4591579891693351,
+      "true_demand": 1.8877087934922756,
+      "true_profit": 2.237686158337122
+    },
+    {
+      "variant": "relative_price_diagnostic",
+      "epoch": 12,
+      "row": 1000,
+      "multiplier": 1.1,
+      "predicted_demand": 1.1048098802566528,
+      "predicted_profit": 1.463496360675603,
+      "true_demand": 1.6710987999857612,
+      "true_profit": 2.213636079666841
+    },
+    {
+      "variant": "relative_price_diagnostic",
+      "epoch": 12,
+      "row": 1000,
+      "multiplier": 1.15,
+      "predicted_demand": 0.995574951171875,
+      "predicted_profit": 1.4574421365942567,
+      "true_demand": 1.4873823400646653,
+      "true_profit": 2.1774088360547443
+    }
+  ]
+}

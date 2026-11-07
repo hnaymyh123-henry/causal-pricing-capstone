@@ -1,0 +1,9 @@
+# Package versions used for the reported results (report Appendix B, Table B2).
+# On Windows/Linux, install the CPU build of PyTorch first (see README.md).
+numpy==2.2.3
+pandas==2.2.3
+scipy==1.15.2
+scikit-learn==1.5.2
+matplotlib==3.10.1
+causal-learn==0.1.4.7
+torch==2.7.1

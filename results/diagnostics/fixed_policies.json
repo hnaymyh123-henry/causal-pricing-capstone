@@ -1,0 +1,231 @@
+{
+  "diagnostic_only": true,
+  "note": "Profit equality does not independently establish identical per-row actions. No trained models were rerun.",
+  "records": [
+    {
+      "world": "baseline",
+      "seed": 0,
+      "fixed_minus15_regret_pct": 43.276844605251,
+      "unchanged_price_regret_pct": 19.656209590858115,
+      "fixed_plus15_regret_pct": 0.0,
+      "TransformerSmall_profit_matches_fixed_plus15": true,
+      "TransformerLarge_profit_matches_fixed_plus15": true
+    },
+    {
+      "world": "baseline",
+      "seed": 1,
+      "fixed_minus15_regret_pct": 43.43545521322493,
+      "unchanged_price_regret_pct": 19.727333057154745,
+      "fixed_plus15_regret_pct": 0.0,
+      "TransformerSmall_profit_matches_fixed_plus15": true,
+      "TransformerLarge_profit_matches_fixed_plus15": true
+    },
+    {
+      "world": "baseline",
+      "seed": 2,
+      "fixed_minus15_regret_pct": 42.597123318323305,
+      "unchanged_price_regret_pct": 19.35141198205092,
+      "fixed_plus15_regret_pct": 0.0,
+      "TransformerSmall_profit_matches_fixed_plus15": true,
+      "TransformerLarge_profit_matches_fixed_plus15": true
+    },
+    {
+      "world": "baseline",
+      "seed": 3,
+      "fixed_minus15_regret_pct": 42.36504486910066,
+      "unchanged_price_regret_pct": 19.247344391791273,
+      "fixed_plus15_regret_pct": 0.0,
+      "TransformerSmall_profit_matches_fixed_plus15": true,
+      "TransformerLarge_profit_matches_fixed_plus15": true
+    },
+    {
+      "world": "baseline",
+      "seed": 4,
+      "fixed_minus15_regret_pct": 43.60380879037554,
+      "unchanged_price_regret_pct": 19.802825422535232,
+      "fixed_plus15_regret_pct": 0.0,
+      "TransformerSmall_profit_matches_fixed_plus15": true,
+      "TransformerLarge_profit_matches_fixed_plus15": true
+    },
+    {
+      "world": "higher_elasticity",
+      "seed": 0,
+      "fixed_minus15_regret_pct": 13.082427355385306,
+      "unchanged_price_regret_pct": 4.886759395102906,
+      "fixed_plus15_regret_pct": 7.469878906383231,
+      "TransformerSmall_profit_matches_fixed_plus15": true,
+      "TransformerLarge_profit_matches_fixed_plus15": true
+    },
+    {
+      "world": "higher_elasticity",
+      "seed": 1,
+      "fixed_minus15_regret_pct": 12.415440060889036,
+      "unchanged_price_regret_pct": 4.444148247205024,
+      "fixed_plus15_regret_pct": 7.158194164827094,
+      "TransformerSmall_profit_matches_fixed_plus15": true,
+      "TransformerLarge_profit_matches_fixed_plus15": true
+    },
+    {
+      "world": "higher_elasticity",
+      "seed": 2,
+      "fixed_minus15_regret_pct": 10.30287631007165,
+      "unchanged_price_regret_pct": 4.038670967663806,
+      "fixed_plus15_regret_pct": 7.552777545316275,
+      "TransformerSmall_profit_matches_fixed_plus15": true,
+      "TransformerLarge_profit_matches_fixed_plus15": true
+    },
+    {
+      "world": "higher_elasticity",
+      "seed": 3,
+      "fixed_minus15_regret_pct": 10.663320535687983,
+      "unchanged_price_regret_pct": 4.397422123988718,
+      "fixed_plus15_regret_pct": 7.887016868697853,
+      "TransformerSmall_profit_matches_fixed_plus15": true,
+      "TransformerLarge_profit_matches_fixed_plus15": true
+    },
+    {
+      "world": "higher_elasticity",
+      "seed": 4,
+      "fixed_minus15_regret_pct": 12.732812985987957,
+      "unchanged_price_regret_pct": 4.541927309061497,
+      "fixed_plus15_regret_pct": 7.150036636510154,
+      "TransformerSmall_profit_matches_fixed_plus15": true,
+      "TransformerLarge_profit_matches_fixed_plus15": true
+    },
+    {
+      "world": "weak_instrument",
+      "seed": 0,
+      "fixed_minus15_regret_pct": 13.105467436345709,
+      "unchanged_price_regret_pct": 4.896396377839564,
+      "fixed_plus15_regret_pct": 7.472807119108931,
+      "TransformerSmall_profit_matches_fixed_plus15": true,
+      "TransformerLarge_profit_matches_fixed_plus15": true
+    },
+    {
+      "world": "weak_instrument",
+      "seed": 1,
+      "fixed_minus15_regret_pct": 12.424387776249734,
+      "unchanged_price_regret_pct": 4.470100196535647,
+      "fixed_plus15_regret_pct": 7.190130460739629,
+      "TransformerSmall_profit_matches_fixed_plus15": true,
+      "TransformerLarge_profit_matches_fixed_plus15": true
+    },
+    {
+      "world": "weak_instrument",
+      "seed": 2,
+      "fixed_minus15_regret_pct": 10.28133990148289,
+      "unchanged_price_regret_pct": 4.052596268468043,
+      "fixed_plus15_regret_pct": 7.581843504269877,
+      "TransformerSmall_profit_matches_fixed_plus15": true,
+      "TransformerLarge_profit_matches_fixed_plus15": true
+    },
+    {
+      "world": "weak_instrument",
+      "seed": 3,
+      "fixed_minus15_regret_pct": 10.614699111789951,
+      "unchanged_price_regret_pct": 4.3898125442444185,
+      "fixed_plus15_regret_pct": 7.898487221656974,
+      "TransformerSmall_profit_matches_fixed_plus15": true,
+      "TransformerLarge_profit_matches_fixed_plus15": true
+    },
+    {
+      "world": "weak_instrument",
+      "seed": 4,
+      "fixed_minus15_regret_pct": 12.696891586776022,
+      "unchanged_price_regret_pct": 4.542008936633989,
+      "fixed_plus15_regret_pct": 7.166420393999503,
+      "TransformerSmall_profit_matches_fixed_plus15": true,
+      "TransformerLarge_profit_matches_fixed_plus15": true
+    },
+    {
+      "world": "hidden_confounding",
+      "seed": 0,
+      "fixed_minus15_regret_pct": 42.7644529277742,
+      "unchanged_price_regret_pct": 18.7123357913185,
+      "fixed_plus15_regret_pct": 13.198208681423676,
+      "TransformerSmall_profit_matches_fixed_plus15": false,
+      "TransformerLarge_profit_matches_fixed_plus15": false
+    },
+    {
+      "world": "hidden_confounding",
+      "seed": 1,
+      "fixed_minus15_regret_pct": 54.29593035288086,
+      "unchanged_price_regret_pct": 22.3661249406239,
+      "fixed_plus15_regret_pct": 13.041970950055536,
+      "TransformerSmall_profit_matches_fixed_plus15": false,
+      "TransformerLarge_profit_matches_fixed_plus15": true
+    },
+    {
+      "world": "hidden_confounding",
+      "seed": 2,
+      "fixed_minus15_regret_pct": 42.73316307797675,
+      "unchanged_price_regret_pct": 18.62476143020379,
+      "fixed_plus15_regret_pct": 13.090936667354994,
+      "TransformerSmall_profit_matches_fixed_plus15": false,
+      "TransformerLarge_profit_matches_fixed_plus15": true
+    },
+    {
+      "world": "hidden_confounding",
+      "seed": 3,
+      "fixed_minus15_regret_pct": 40.69377063757379,
+      "unchanged_price_regret_pct": 17.805626235318005,
+      "fixed_plus15_regret_pct": 12.878732470770883,
+      "TransformerSmall_profit_matches_fixed_plus15": false,
+      "TransformerLarge_profit_matches_fixed_plus15": false
+    },
+    {
+      "world": "hidden_confounding",
+      "seed": 4,
+      "fixed_minus15_regret_pct": 40.871805740960085,
+      "unchanged_price_regret_pct": 17.856640709863484,
+      "fixed_plus15_regret_pct": 12.868836549505364,
+      "TransformerSmall_profit_matches_fixed_plus15": false,
+      "TransformerLarge_profit_matches_fixed_plus15": false
+    },
+    {
+      "world": "exclusion_violated",
+      "seed": 0,
+      "fixed_minus15_regret_pct": 13.095683216861183,
+      "unchanged_price_regret_pct": 4.892666738418943,
+      "fixed_plus15_regret_pct": 7.4720667520090664,
+      "TransformerSmall_profit_matches_fixed_plus15": true,
+      "TransformerLarge_profit_matches_fixed_plus15": true
+    },
+    {
+      "world": "exclusion_violated",
+      "seed": 1,
+      "fixed_minus15_regret_pct": 12.42015831541842,
+      "unchanged_price_regret_pct": 4.460222341754231,
+      "fixed_plus15_regret_pct": 7.178347965660098,
+      "TransformerSmall_profit_matches_fixed_plus15": true,
+      "TransformerLarge_profit_matches_fixed_plus15": true
+    },
+    {
+      "world": "exclusion_violated",
+      "seed": 2,
+      "fixed_minus15_regret_pct": 10.291194356717988,
+      "unchanged_price_regret_pct": 4.048066464355432,
+      "fixed_plus15_regret_pct": 7.571098183078233,
+      "TransformerSmall_profit_matches_fixed_plus15": true,
+      "TransformerLarge_profit_matches_fixed_plus15": true
+    },
+    {
+      "world": "exclusion_violated",
+      "seed": 3,
+      "fixed_minus15_regret_pct": 10.634359689910196,
+      "unchanged_price_regret_pct": 4.393059575952963,
+      "fixed_plus15_regret_pct": 7.89408484101646,
+      "TransformerSmall_profit_matches_fixed_plus15": true,
+      "TransformerLarge_profit_matches_fixed_plus15": true
+    },
+    {
+      "world": "exclusion_violated",
+      "seed": 4,
+      "fixed_minus15_regret_pct": 12.705718728509735,
+      "unchanged_price_regret_pct": 4.540768569123038,
+      "fixed_plus15_regret_pct": 7.160702056118427,
+      "TransformerSmall_profit_matches_fixed_plus15": true,
+      "TransformerLarge_profit_matches_fixed_plus15": true
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "status": "complete",
+  "scope": "Five worlds, seeds 0-4; three predictive models with training-only item-relative log price; four unchanged slope estimators rerun",
+  "protected_hashes": {
+    "Causal_Pricing_Final/experiment.py": "018f259ad573c165f19de549dde6b2b987df4f6a0f1928b53f95dddad7b4d550",
+    "Causal_Pricing_Final/results/matched_seed_results.csv": "522f2bbfa67e8f08b58d62f99fc1faba7de7a776e345ecf4c533641bb4df7cb2",
+    "Causal_Pricing_Final/Final_Report.docx": "2590b7ec989f1e3a6749a530e7d8f92a535e88c03e2f67f21cd1aa6fe811b63e",
+    "Causal_Pricing_Final/Final_Report_Argument_Revision_2026-10-12.docx": "33edc53c581126a36540e33ee883c9065d19182547225ea7c2a5e3982ff97d7a",
+    "Causal_Pricing_Final/Final_Report_Clarity_Revision_2026-10-12.docx": "46d6585ee8d54d4662bee0819679258991a5c73e947390512486af7ee24f1052",
+    "Causal_Pricing_Final/Final_Report_Data_and_Parameter_Revision_2026-10-09.docx": "8740427975bb3154d1543b709d412890c8121cfb4b9169dd3a108c032f1eb011",
+    "Causal_Pricing_Final/Final_Report_Decision_Metrics_2026-10-12.docx": "cd281d1c442a2d9f7643516048582e4b95d13dc3145060abfbad07c1e36ef91e",
+    "Causal_Pricing_Final/Final_Report_Parameter_Intuition_2026-10-12.docx": "51c8edff968e75ae9db9b784e0efa04ed2135f5cf7e6923e6b3f62abf1642077",
+    "Causal_Pricing_Final/Final_Report_Rationale_Revision_2026-10-07.docx": "362150c9e536994ee684c7c9eec6d9ec62d4dbe9feb499dfa0700be6d059bdea",
+    "Causal_Pricing_Final/Final_Report_Rationale_Revision_2026-10-08.docx": "c3da8e6d841e44337b5ee31bb74c6e3ce91d58270b688767a750ee63942f789b",
+    "Causal_Pricing_Final/Final_Report_Restructured_2026-10-09.docx": "bc38c5c0701814be496f5972ec0a61b53a07a5d750d105d212c74ae2fe587075",
+    "Causal_Pricing_Final/Final_Report_Transformer_Framework_2026-10-12.docx": "d69ad93f3a5ae0748a0f49f6f33a90ee8998a2b87547db77e3cda3649528cc0d",
+    "Causal_Pricing_Final/Final_Report_Two_Research_Questions_2026-10-09.docx": "3a1eb455615377a752312ed7a13b2239c33e93453a99ac8398f6e1b252ffed94",
+    "Causal_Pricing_Final/Literature_Review.docx": "4d335dea94777bc0fbcac63d3072b4662bfe18c1ba913073d45c43a7dbef14cc"
+  },
+  "epochs": 12,
+  "n_sku": 500,
+  "n_week": 130,
+  "price_definition": "log_price minus item training-period mean log_price",
+  "formal_report_changed": false,
+  "record_count": 175,
+  "protected_files_unchanged": true
+}

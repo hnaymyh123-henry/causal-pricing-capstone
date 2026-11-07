@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "records": 175,
+  "predictive_fits": 75,
+  "slope_estimator_results": 100,
+  "world_seed_combinations": 25,
+  "prediction_matrices_verified": 75,
+  "saved_actions_verified": 175,
+  "max_regret_recomputation_error": 1.4224732503009818e-16,
+  "formal_source_results_and_reports_unchanged": true
+}

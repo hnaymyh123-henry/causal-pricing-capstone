@@ -1,0 +1,9 @@
+{
+  "scope": "TransformerSmall, clean elastic world, seed 0; full 52000 training and 13000 test rows. Five-seed linear probes across all five worlds.",
+  "baseline_reproduced": true,
+  "formal_files_unchanged": true,
+  "oracle_upper_share": 0.1439230769230769,
+  "finding": "The original feature representation learns a weak price response. Training from 12 to 36 epochs leaves all actions at the upper boundary. Training-period item-relative log price restores a much steeper response and materially lowers regret with the original 12-epoch budget.",
+  "boundary": "One neural seed and one world; does not establish a unique cause, final corrected ranking, or results for Large. The relative-price diagnostic relates to deferred P0; no formal preprocessing change applied.",
+  "next_step": "Keep current results as original-pipeline evidence; validate matched feature representation across seeds and models before replacing aggregate comparisons."
+}

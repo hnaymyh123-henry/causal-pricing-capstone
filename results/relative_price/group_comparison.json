@@ -1,0 +1,20 @@
+{
+  "causal_members": [
+    "IV",
+    "DML",
+    "DirectLiNGAM"
+  ],
+  "predictive_members": [
+    "HGB",
+    "TransformerSmall",
+    "TransformerLarge"
+  ],
+  "causal_mean_pct": 1.729214289375225,
+  "predictive_original_mean_pct": 8.513258229994067,
+  "predictive_relative_mean_pct": 2.4284711374410093,
+  "new_gap_pp": 0.6992568480657845,
+  "new_gap_ci_halfwidth": 0.24482274930850742,
+  "causal_lower_cells": 14,
+  "total_world_seed_cells": 20,
+  "independent_seed_blocks": 5
+}

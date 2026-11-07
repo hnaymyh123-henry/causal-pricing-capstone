@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Raw M5 files are not redistributed; see data/m5/README.md
+data/m5/*.csv
+data/m5/*.zip
+
+# Default output folders of reruns
+results/*_reproduced/
+results/quick_demo/
+code/results/
